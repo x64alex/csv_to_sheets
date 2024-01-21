@@ -1,0 +1,17 @@
+Get credentials to acces google sheet
+1. Go to https://console.cloud.google.com/apis/dashboard
+2. If you have not created a project before create a project with name sheets(or any name you want)
+3. After project is created click enable api and services
+4. Enter google drive api an click enable. 
+5. Press create credentials
+6. Select Application Data at What data will you be accessing? and click done
+7. Enter a service account id(any string between 6 and 30 characters)
+8. After the account is created click on credentials and click on the service account you just created
+9. Click on keys and add new key, create new key with json type json
+10. The key will be automatically downloaded. Rename the file as credentials.json and move it under the resources folder.
+
+
+How to run a csv file
+1. Download the project and save it anywhere but do not rename files
+2. Add your credentials in the resources folder
+3. At a csv file right click and select open with -> other -> and select the project 1 from the folder final
